@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption And Decryption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form name="f1">
+        <marquee><h1>Ceizer Cipher Encryption/Decryption</h1></marquee>
+        <label for="fl">Enter plain text/cipher text:</label>
+        <input type="text" name="fl" id="fl" />
+        
+        <label for="key">Enter key [0-25]:</label>
+        <input type="text" name="key" id="key" />
+        
+        <label for="result">Result:</label>
+        <input type="text" name="result" id="result" readonly />
+        
+        <input type="button" value="Encrypt" onclick="encrypt()" />
+        <input type="button" value="Decrypt" onclick="decrypt()" />
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
